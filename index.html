@@ -4,47 +4,172 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Accueil</title>
+    <title>Document</title>
+    <style>
+    #body{
+  background: linear-gradient(to bottom, green, yellow);;
+  font-family: sans-serif;
+}
+
+.menu{
+  height: 250px;
+  width: 250px;
+  margin: 20px 20px 20px 20px;
+  
+}
+
+.title{
+  margin: 20px 20px 20px 20px;
+}
+.title:hover{
+  color:white;
+}
+.title:click{
+  
+}
+
+#main{
+  border-radius: 50px;
+  border: solid-white;
+  width: 1200px;
+  padding: 100px;
+  margin: auto;
+}
+
+
+.calcul{
+ margin: 2px 2px 2px 20px;
+  width: 300px;
+  border: 10px solid black;
+  padding: 10px;
+  border-radius: 20px;
+
+  -webkit-box-shadow: 20px 10px 60px 10px #FFFFFF;
+box-shadow: 30px 15px 90px 15px #FFFFFF;
+}
+  
+}
+
+#champ1{
+  width: 200px;
+}
+#champ2{
+  width: 200px;
+}
+#champ3{
+  width: 200px;
+}
+
+.calcul{
+  margin: 2px 2px 2px 20px;
+  width: 300px;
+  border: 10px solid black;
+  padding: 10px;
+  border-radius: 20px;
+
+  -webkit-box-shadow: 20px 10px 60px 10px #FFFFFF;
+box-shadow: 30px 15px 90px 15px #FFFFFF;
+}
+
+#vitre{
+	margin-top: 10px;
+	border: 1px solid;
+	height: 200px;
+	padding: 5px;
+}
+
+#vitre2{
+	margin-top: 10px;
+	border: 1px solid;
+	height: 400px;
+	padding: 5px;
+}
+
+
+.bouton{
+	margin-top: 10px;
+	height: 40px;
+	width: 40px;
+	margin: 0 auto;
+	border: 1px solid;
+	border-radius: 100%;
+	z-index: 0;
+}
+
+#retourneSalaire{
+  margin-top: 10px;
+	height: 40px;
+  width: 40px;
+	margin: 0 auto;
+  border: 1px solid;
+	border-radius: 100%;
+	z-index: 0;
+}
+#retourneSalaire:hover{
+	background-color: black;
+}
+
+img{
+  width: 100%;
+}
+
+.bouton:hover{
+	background-color: black;
+}
+    
+    
+    </style>
 </head>
 <body>
-    <h1>Projet wages</h1>
-    <h2>Accueil</h2>
-    <h2>Présentation</h2>
-    <h2>Manifestes</h2>
-    <h2>Forum</h2>
-    <h2>Ressources</h2>
-    <h2>Soutiens</h2>
-    <h3>Magie</h3>
-    <h3>Rituels</h3>
-    <div>helloooooooooooooooooooo</div>
-    <h2>coucou</h2>
-    <div id="main">
-  
-        <div class="calcul" id="F1">
-          <h1>Salary Calculation</h1>
-          <div id="vitre"><p><img src="https://media1.giphy.com/media/VTxmwaCEwSlZm/200.gif" /></p></div>
-          <br>
-          <input id="champ1" type="number" placeholder="Enter your years of experience"/></br></br>
-        <input id="champ2" type="number" placeholder="Enter your years of study"/></br></br>
-        <input id="champ3" type="number" placeholder="Enter the region where you work">
-        </br></br>
-        <button id="retourneSalaire"></button>
-        <p id="resultat"></p>
-          </div>
+    <div id="body">
         <br>
-        <div class="calcul" id="illustration">
-                <div id="vitre2"><p><img src="http://jp59.j.p.pic.centerblog.net/wihrgatk.gif" /></p></div>
+        <div class="title" id="sage-w-ages">
+          <h1>SAGE-W-AGES</h1>
+        </div>
+        
+        <div class="menu" id="about">
           <br>
-          <div>Click below to calculate your salary according to the Swiss Confederation</div>
-                <a href=https://www.gate.bfs.admin.ch/salarium/public/index.html#/calculation=mjdssddnBXc><div class="bouton"></div></a>
+          <h3>About</h3>
+          <h3>Free documentation</h3>
+          <h3>Forum</h3>
+          <h3>Testimonials</h3>
+          <h3>Salary Calculation</h3>
+          <h3>Who Supports the Initiative</h3>
         </div>
-
-        <h1>FORUMMMMMMMMMMMM</h1>
-
-
+        
+        
+      <div id="main">
+        
+      <div class="calcul" id="F1">
+        <h1>Salary Calculation</h1>
+        <div id="vitre"><p><img src="https://media1.giphy.com/media/VTxmwaCEwSlZm/200.gif" /></p></div>
+        <br>
+        <input id="champ1" type="number" placeholder="Enter your years of experience"/></br></br>
+      <input id="champ2" type="number" placeholder="Enter your years of study"/></br></br>
+      <input id="champ3" type="number" placeholder="Enter the region where you work">
+      </br></br>
+      <button id="retourneSalaire"></button>
+      <p id="resultat"></p>
         </div>
-    <div></div>
-    <script>
-    </script>
+      <br>
+      <div class="calcul" id="illustration">
+              <div id="vitre2"><p><img src="http://jp59.j.p.pic.centerblog.net/wihrgatk.gif" /></p></div>
+        <br>
+        <div>Click below to calculate your salary according to the Swiss Confederation</div>
+              <a href=https://www.gate.bfs.admin.ch/salarium/public/index.html#/calculation=mjdssddnBXc><div class="bouton"></div></a>
+      </div>
+      </div> 
+
+<script>
+    let salaire1 = document.getElementById("retourneSalaire");
+
+pourcentage1.addEventListener("click",function(){
+  let nombre1 = document.getElementById("champ1").value;
+  let nombre2 = document.getElementById("champ2").value;
+ 
+  document.getElementById("resultat").innerHTML=`${nombre1} représente  ${nombre1*100/nombre2}% de ${nombre2}`;
+});
+</script>
+
 </body>
 </html>
